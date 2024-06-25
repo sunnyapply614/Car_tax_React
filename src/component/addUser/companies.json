@@ -1,0 +1,42 @@
+{
+  "companies": [
+    { "value": "louth",
+      "display": "LOUTH" },
+
+    { "value": "dublin",
+      "display": "DUBLIN" },
+
+    { "value": "apple",
+    "display": "APPLE" },
+
+    { "value": "ibm",
+    "display": "IBM" },
+
+    { "value": "uber",
+    "display": "UBER" },
+
+    { "value": "microsoft",
+    "display": "MICROSOFT" },
+
+    { "value": "tonny",
+    "display": "TONNY" },
+
+    { "value": "rorex",
+    "display": "ROREX" },
+
+    { "value": "sanc",
+    "display": "SONC" },
+
+    { "value": "lenovo",
+    "display": "LENOVO" },
+
+    { "value": "dublin",
+    "display": "Dublin" },
+
+    { "value": "dublin",
+    "display": "Dublin" },
+
+    { "value": "dublin",
+    "display": "Dublin" }
+  ]
+}

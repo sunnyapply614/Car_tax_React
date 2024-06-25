@@ -1,0 +1,37 @@
+.error-box {
+  position: relative;
+  left: 174px;
+  height: 20px;
+  background: #F0B7D5;
+  color: #942C21;
+  font-size: 12px;
+  border-radius: 10px;
+  padding: 0px 10px;
+}
+
+.resend-email{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 320px;
+}
+
+.subsub1-sub1-auth-right input:-webkit-autofill,
+.subsub1-sub1-auth-right input:-webkit-autofill:hover,
+.subsub1-sub1-auth-right input:-webkit-autofill:focus,
+.subsub1-sub1-auth-right textarea:-webkit-autofill,
+.subsub1-sub1-auth-right textarea:-webkit-autofill:hover,
+.subsub1-sub1-auth-right textarea:-webkit-autofill:focus,
+.subsub1-sub1-auth-right select:-webkit-autofill,
+.subsub1-sub1-auth-right select:-webkit-autofill:hover,
+.subsub1-sub1-auth-right select:-webkit-autofill:focus {
+    border: 1px solid #d1d1d1;
+    -webkit-text-fill-color: #fff;
+    -webkit-box-shadow: 0 0 0px 1000px #1b0b42 inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.subsub1-sub1-auth-right input:-webkit-autofill::first-line {
+  font-size: 2rem !important;
+}
