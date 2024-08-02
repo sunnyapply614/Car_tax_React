@@ -7,11 +7,7 @@ import storage from 'reduxjs-toolkit-persist/lib/storage'; // defaults to localS
 import { useSelector, useDispatch } from 'react-redux';
 import rootReducer from './reducers';
 
-const persistConfig = {
-    key: 'root',
-    version: 1,
-    storage,
-}
+
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
 
