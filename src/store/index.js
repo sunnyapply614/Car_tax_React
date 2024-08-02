@@ -10,6 +10,11 @@ import rootReducer from './reducers';
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
+const persistConfig = {
+    key: 'root',
+    version: 1,
+    storage,
+}
 
 export const store = configureStore({
     reducer: persistedReducer,
