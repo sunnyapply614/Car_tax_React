@@ -1,3 +1,12 @@
+import { createSlice } from "@reduxjs/toolkit";
+
+const initialState = {
+  uploaded_files: [],
+  is_newly_uploaded: false,
+  all_namespace: [],
+  selected_namespace: "",
+  selected_tool: "",
+};
 
 
 export const ChatHistorySlice = createSlice({
