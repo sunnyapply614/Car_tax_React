@@ -114,7 +114,15 @@ const Dashboard = () => {
           ))}
         </MapGL>
       )}
-     
+      {isMobile && (
+        <input
+          className="field-input position-absolute"
+          type="text"
+          placeholder="Search vehicle..."
+          value={searchText}
+          onChange={(e) => setSearchText(e.target.value)}
+        />
+      )}
     </div>
   );
 };
