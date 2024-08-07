@@ -6,6 +6,7 @@ import { useMediaQuery } from "@mui/material";
 import { LiveChatWidget, EventHandlerPayload } from "@livechat/widget-react";
 import MapGL, { Marker } from "react-map-gl";
 
+import GoogleMapComponent from "./GoogleMap";
 import "mapbox-gl/dist/mapbox-gl.css";
 import "./Dashboard.css";
 
