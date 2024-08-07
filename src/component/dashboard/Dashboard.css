@@ -1,4 +1,12 @@
+.map-container {
+  height: calc(100dvh - 11rem);
+}
 
+.marker-info {
+  background-color: red;
+  border: .2rem solid white;
+  border-radius: 1rem;
+}
 
 @media(max-width:767px) {
   .map-container {
