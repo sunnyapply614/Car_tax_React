@@ -36,13 +36,6 @@ export const AdversarialDialogSlice = createSlice({
   },
 });
 
-export const {
-  setUploadedFiles,
-  setIsNewlyUploaded,
-  setAllNS,
-  deleteNS,
-  setSelectedNS,
-  resetAll,
-} = AdversarialDialogSlice.actions;
+
 
 export default AdversarialDialogSlice.reducer;
