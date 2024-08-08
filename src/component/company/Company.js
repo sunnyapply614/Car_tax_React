@@ -12,19 +12,7 @@ import "../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min";
 import "./Company.css";
 
 const CompanyData = [
-  {
-    id: "1",
-    img: "./assets/uber.svg",
-    companyName: "Uber",
-    username: "abc",
-    owner: "Daniel",
-    email: "test@gmail.com1",
-    mobile: "+97 6730753792",
-    noVehicle: "24",
-    country_name: "Pakistan",
-    status: "Deactivated",
-    address: "abc",
-  },
+  
   {
     id: "2",
     img: "./assets/uber.svg",
