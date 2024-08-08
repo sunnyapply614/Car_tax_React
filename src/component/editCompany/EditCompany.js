@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import { useLocation } from "react-router-dom";
-import PhoneInput from "react-phone-number-input";
+
 
 import { CountryData } from "../../utils/mockup";
 
