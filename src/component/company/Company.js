@@ -70,7 +70,17 @@ const Company = () => {
   const navigate = useNavigate();
   const isMobile = useMediaQuery("(max-width: 768px)");
 
-
+  const [companyStatus, setCompanyStatus] = useState("");
+  const [stateColor, setStateColor] = useState("#7A7D8B");
+  const [searchCompanyNameText, setSearchCompanyNameText] = useState("");
+  const [searchOwnerText, setSearchOwnerText] = useState("");
+  const [searchCountryText, setSearchCountryText] = useState("Country");
+  const [searchEmailText, setSearchEmailText] = useState("");
+  const [searchStatusText, setSearchStatusText] = useState("");
+  const [companyRemove, setCompanyRemove] = useState("none");
+  const [companyRemoveId, setCompanyRemoveId] = useState("");
+  const [data, setData] = useState(CompanyData);
+  const [searchFold, setSearchFold] = useState(true);
 
   useEffect(() => {
     setData(
