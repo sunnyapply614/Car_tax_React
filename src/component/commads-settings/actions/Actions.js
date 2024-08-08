@@ -1,10 +1,4 @@
-import React, { useState } from "react";
-import "./Actions.css";
-import { useDispatch, useSelector } from "react-redux";
-import { useLocation } from "react-router-dom";
-import { cmdType } from "../../../common/common";
-import { commandSetting } from "../../../services/axios";
-import { ConfirmDialog } from "../../../utils/globals";
+
 const Actions = () => {
   const deviceListData = useSelector((state) => state.devicesList);
   const { token, devices } = deviceListData;
