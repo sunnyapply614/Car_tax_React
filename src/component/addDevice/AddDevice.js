@@ -23,7 +23,18 @@ const AddDevice = () => {
   const [deviceType, setDeviceType] = useState("");
   const [deviceModels, setDeviceModels] = useState([]);
 
-
+  const [formData, setFormData] = useState({
+    vehicletype: "Car",
+    plate: "",
+    imei: "",
+    devicetype: "",
+    model: "",
+    camera: "",
+    sensor: "",
+    mobileNo: "",
+    user: "",
+  });
+  
   useEffect(() => {
     const getList = async () => {
       var response = await getResponse("/auth/userIdList", "post");
