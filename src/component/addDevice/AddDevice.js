@@ -22,17 +22,7 @@ const AddDevice = () => {
   const [path, setPath] = useState("./assets/Teltonika/FMB110_4000x4000_9.png");
   const [deviceType, setDeviceType] = useState("");
   const [deviceModels, setDeviceModels] = useState([]);
-  const [formData, setFormData] = useState({
-    vehicletype: "Car",
-    plate: "",
-    imei: "",
-    devicetype: "",
-    model: "",
-    camera: "",
-    sensor: "",
-    mobileNo: "",
-    user: "",
-  });
+
 
   useEffect(() => {
     const getList = async () => {
