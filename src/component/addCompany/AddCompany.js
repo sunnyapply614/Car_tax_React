@@ -12,15 +12,7 @@ import "./AddCompany.css";
 const AddCompany = () => {
     const navigate = useNavigate();
 
-    const [phoneNumber, setPhoneNumber] = useState("");
-    const [formData, setFormData] = useState({
-        name: "",
-        username: "",
-        email: "",
-        mobile: "",
-        country_name: "",
-        address: ""
-    })
+    
 
     const handlData = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
