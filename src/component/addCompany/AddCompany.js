@@ -6,7 +6,8 @@ import { CountryData } from "../../utils/mockup";
 import { getResponse } from '../../services/axios';
 import { useNavigate } from "react-router-dom";
 
-
+import 'react-phone-number-input/style.css';
+import "./AddCompany.css";
 
 const AddCompany = () => {
     const navigate = useNavigate();
