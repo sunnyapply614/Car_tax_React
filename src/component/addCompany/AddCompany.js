@@ -1,6 +1,4 @@
-import React, { useState } from 'react';
-import PhoneInput from 'react-phone-number-input';
-// import axios from 'axios';
+
 
 import { CountryData } from "../../utils/mockup";
 import { getResponse } from '../../services/axios';
