@@ -11,7 +11,8 @@ import "react-phone-number-input/style.css";
 import "./EditUser.css";
 
 const EditUser = () => {
-
+  const getData = useLocation();
+  const navigate = useNavigate();
 
   const role = useSelector((state) => state.auth.user.role);
 
