@@ -1,4 +1,9 @@
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useMediaQuery } from "@mui/material";
 
+import "react-phone-number-input/style.css";
+import "./NewTicket.css";
 
 const DATA = [
   {
