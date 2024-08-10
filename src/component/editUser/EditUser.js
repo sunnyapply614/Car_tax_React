@@ -16,7 +16,19 @@ const EditUser = () => {
 
   const role = useSelector((state) => state.auth.user.role);
 
-
+  const [phoneNumber, setPhoneNumber] = useState(getData.state.mobile);
+  const [suggestions, setSuggestions] = useState([]);
+  const [avatarPath, setAvatarPath] = useState(getData.state.image);
+  const [formData, setFormData] = useState({
+    address: getData.state.address,
+    name: getData.state.name,
+    username: getData.state.username,
+    email: getData.state.email,
+    mobile: getData.state.mobile,
+    country: getData.state.country,
+    company: getData.state.company,
+    role: getData.state.role,
+  })
 
   useEffect(() => {
     var temp = [];
