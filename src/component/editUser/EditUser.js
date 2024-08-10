@@ -178,24 +178,9 @@ const EditUser = () => {
             </div>
           </div>
         </div>
-        <div className='edit-input-container d-flex justify-content-evenly mb-5'>
-          <div className='d-flex flex-column position-relative'>
-            <label>Country</label>
-            <input className='normal-input' name='country' type='text' value={formData.country} onChange={handleData} required />
-              {formData.country && (
-                <div className='suggestion position-absolute w-100 px-3 overflow-y-auto bg-white'>
-                  {suggestions.map((cityData, index) => (
-                    <p 
-                      className='my-1 cursor-pointer p-0' 
-                      key={index}
-                      onClick={() => setFormData({ ...formData, "country": cityData.state + ", " + cityData.country })}
-                    >
-                      {cityData.state + ", " + cityData.country}
-                    </p>
-                  ))}
-                </div>
-              )}
-          </div>
+
+
+                  
           <div className='d-flex flex-column'>
             <label>Address</label>
             <input className='normal-input' type='text' value={formData.address} name="address" onChange={handleData} />
