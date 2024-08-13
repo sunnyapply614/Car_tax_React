@@ -71,7 +71,16 @@ const cmdType = {
     AuthorizedBeaconsList: "Authorized beacons list",
     BeaconSettings: "Beacon Settings",
 
+    ReqGPSDataTime: "Request current GPS Date and Time",
+    FormatSDcard: "Format SD card",
+    RestartDev: "Restart the device",
+    ConnectToFotaWeb: "Connect to Fota Web immediately",
+    ForceDevToGenReport: "Force device to Generate a report",
+    GetimeiccidCmd: "Send getimeiccid command",
 
+    NetworkMode: "Network mode",
+    LoTNetworkMode: "loT Network Mode",
+    BandSelectionMode: "Band Seletion Mode"
 
 }
 
