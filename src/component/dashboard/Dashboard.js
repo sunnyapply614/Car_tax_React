@@ -76,7 +76,15 @@ const Dashboard = () => {
     }
   }, [devices, mapMode, getData]);
 
-  
+  const calculateZoomLevel = (bounds) => {
+    const maxZoom = 20;
+    const lngDiff = Math.abs(bounds[1] - bounds[3]);
+    const latDiff = Math.abs(bounds[0] - bounds[2]);
+    const lngZoom = lngDiff ? Math.log(360 / lngDiff) / Math.LN2 : maxZoom;
+    const latZoom = latDiff ? Math.log(180 / latDiff) / Math.LN2 : maxZoom;
+    const zoom = Math.min(lngZoom, latZoom, maxZoom);
+    return zoom;
+  };
 
   return (
     <div className="map-container position-relative d-flex justify-content-center w-100">
