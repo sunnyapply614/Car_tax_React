@@ -1,10 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
-import { useMediaQuery } from "@mui/material";
-import { CSVLink } from "react-csv";
-import { faMicrochip } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 import { removeDevice } from "../../services/axios";
 import { Ruptelas, Teltonikas } from "../../utils/mockup";
