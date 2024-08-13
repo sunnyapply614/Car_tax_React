@@ -489,7 +489,12 @@ const AddVehicle = () => {
                           {item?.iemi}
                         </p>
                       </div>
-                      
+                      <div className="d-flex w-100">
+                        <p className="mb-0 px-2 col-4 text-white">Company</p>
+                        <p className="mb-0 px-2 col-8 item justify-content-start">
+                          {item?.company}
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
