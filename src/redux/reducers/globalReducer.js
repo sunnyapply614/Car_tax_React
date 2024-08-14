@@ -26,7 +26,6 @@ export default function (state = initialState, action) {
         mapMode: action.payload
       };
 
-    default:
-      return state;
+    
   }
 }
