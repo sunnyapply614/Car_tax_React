@@ -1,6 +1,10 @@
 import { SWITCH_MENU_VISIBLE, SWITCH_SIDEBAR_VISIBLE, TOGGLE_MAP_MODE } from "../store/types";
 
-
+const initialState = {
+  showMenu: false,
+  showSidebar: false,
+  mapMode: 1,
+};
 
 export default function (state = initialState, action) {
   switch (action.type) {
