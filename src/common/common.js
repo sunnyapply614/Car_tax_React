@@ -10,7 +10,17 @@ const cmdType = {
     AxisY: "Axis Y",
     AxisZ: "Axis Z",
 
-
+    MotionDetection: "Motion Detection",
+    SleepMode: "Sleep Mode",
+    NetworkTimeProtocalServer: "Network Time Protocal Server",
+    StaticNavigation: "Static Navigation",
+    GnssSource: "GNSS Source",
+    LedIndication: "LED Indication",
+    BatteryChargeMode: "Battery charge mode",
+    IgnitionDetectionSource: "Ignition Detection Source",
+    AccelerometerCalibrationAndGravityFilter: "Accelerometer calibration and gravity filter",
+    DataCodecToUseForDataTransmission: "Data codec to use for data transmission",
+    GetverCommandResponse: "getver command response",
 
     RecordsParameters: "Records Parameters",
     EnableConnectionOverTLS: "Enable connection over TLS",
