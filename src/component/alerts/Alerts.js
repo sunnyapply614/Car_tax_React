@@ -31,7 +31,17 @@ const AlertData = [
     time: "11/12/2023 10:31 PM",
     company: "deltas",
   },
-
+  {
+    id: "3",
+    plate: "DXB U12345",
+    alert: "Enter Geofence",
+    location: {
+      gps: "24.35164,54.514485",
+      path: "AI Nahyan St,Duabi ,UAE",
+    },
+    time: "11/12/2023 10:31 PM",
+    company: "delta",
+  },
   {
     id: "4",
     plate: "DXB U123455",
