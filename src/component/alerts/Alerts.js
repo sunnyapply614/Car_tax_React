@@ -9,7 +9,17 @@ import "react-datepicker/dist/react-datepicker.css";
 import "./Alerts.css";
 
 const AlertData = [
-
+  {
+    id: "1",
+    plate: "DXB U12345",
+    alert: "Enter Geofence",
+    location: {
+      gps: "24.35164,54.514485",
+      path: "AI Nahyan St,Duabi ,UAE",
+    },
+    time: "11/12/2023 10:31 PM",
+    company: "delta",
+  },
   {
     id: "2",
     plate: "DXB U123455",
