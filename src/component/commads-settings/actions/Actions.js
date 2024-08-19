@@ -20,14 +20,7 @@ const Actions = () => {
   const [left3, setLeft3] = useState("none");
   const [left3State, setLeft3State] = useState(false);
   // //////////////////////////////////
-  const [mid1, setMid1] = useState("none");
-  const [mid1State, setMid1State] = useState(false);
-  const [mid2, setMid2] = useState("none");
-  const [mid2State, setMid2State] = useState(false);
-  const [mid3, setMid3] = useState("none");
-  const [mid3State, setMid3State] = useState(false);
-  const [mid4, setMid4] = useState("none");
-  const [mid4State, setMid4State] = useState(false);
+
   // /////////////////////////////////////////
   const [right1, setRight1] = useState("none");
   const [right1State, setRight1State] = useState(false);
