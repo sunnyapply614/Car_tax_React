@@ -1,17 +1,7 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 
-import SystemParams from "./system params/SystemParams";
-import InputOutput from "./input-output/InputOutput";
-import Connectivity from "./connectivity/Connectivity";
-import Configuration from "./configuration/Configuration";
-import Tracking from "./tracking/Tracking"
-import Miscellaneous from "./miscellaneous/Miscellaneous"
-import Bluetooth from "./bluetooth/Bluetooth"
-import Can from "./can/Can";
-import Actions from "./actions/Actions";
-import CommandsQueue from "./commands-queue/CommandsQueue";
-import Accelerometer from "./accelerometer/Accelerometer";
+
 
 import "./CommandsSettings.css";
 
