@@ -31,7 +31,23 @@ const Actions = () => {
   const [mid4, setMid4] = useState("none");
   const [mid4State, setMid4State] = useState(false);
   // /////////////////////////////////////////
-
+  const [right1, setRight1] = useState("none");
+  const [right1State, setRight1State] = useState(false);
+  const [right2, setRight2] = useState("none");
+  const [right2State, setRight2State] = useState(false);
+  const [right3, setRight3] = useState("none");
+  const [right3State, setRight3State] = useState(false);
+  const [right4, setRight4] = useState("none");
+  const [right4State, setRight4State] = useState(false);
+  const [digitalInput, setDigitalInput] = useState("");
+  const [priority1, setPriority1] = useState("");
+  const [priority2, setPriority2] = useState("");
+  const [priority3, setPriority3] = useState("");
+  const [priority4, setPriority4] = useState("");
+  const [priority5, setPriority5] = useState("");
+  const [priority6, setPriority6] = useState("");
+  const [priority7, setPriority7] = useState("");
+  const [priority8, setPriority8] = useState("");
 
   const [operand1, setOperand1] = useState("");
   const [operand2, setOperand2] = useState("");
