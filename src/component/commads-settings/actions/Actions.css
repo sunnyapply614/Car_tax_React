@@ -1,4 +1,15 @@
-
+  @font-face{
+    font-family: rbold;
+    src:url('../../../../public/font/Roboto-Bold.ttf')
+  }
+  @font-face{
+    font-family: rregular;
+    src:url('../../../../public/font/Roboto-Regular.ttf')
+  }
+  @font-face{
+    font-family: rmedium;
+    src:url('../../../../public/font/Roboto-Medium.ttf')
+  }
 
   .sub1-actions-div3 {
     width: 158.9rem;
