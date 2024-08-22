@@ -49,11 +49,7 @@ const cmdType = {
     IgnitionOnCounter: "Ignition ON Counter",
     JammingWithTimeoutScenario: "Jamming with timeout scenario",
 
-    UnplugDetection: "Unplug Detection",
-    CrashCounter: "Crash Counter",
-    TowingDetection: "Towing Detection",
-    CrashDetection: "Crash Detection",
-    ExcessiveIdlingDetection: "Excessive Idling Detection",
+
 
     CanParam: "CAN Parameters",
     ToggleCanControlToOpenUnlockAllDoors: "Tolggle CAN-CONTROL to open unlock all doors",
