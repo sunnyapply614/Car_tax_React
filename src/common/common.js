@@ -77,9 +77,7 @@ const cmdType = {
     ForceDevToGenReport: "Force device to Generate a report",
     GetimeiccidCmd: "Send getimeiccid command",
 
-    NetworkMode: "Network mode",
-    LoTNetworkMode: "loT Network Mode",
-    BandSelectionMode: "Band Seletion Mode"
+
 
 }
 
