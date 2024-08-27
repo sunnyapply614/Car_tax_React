@@ -23,7 +23,16 @@ export default function (state = initialState, action) {
         error: null,
       };
 
-
+    case LOG_OUT:
+      localStorage.removeItem("token");
+      localStorage.removeItem("user");
+      return {
+        user: null,
+        isAuthenticated: false,
+        loading: false,
+        token: null,
+        error: null,
+      };
 
     case USER_ERROR:
       return {
