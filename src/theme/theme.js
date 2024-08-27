@@ -40,12 +40,7 @@ const themeConstants = {
       lineHeight: 1.5,
       letterSpacing: "0.00938em",
     },
-    body2: {
-      fontWeight: 400,
-      fontSize: "0.9rem",
-      lineHeight: 1.43,
-      letterSpacing: "0.01071em",
-    },
+
     subtitle1: {
       fontWeight: 600,
       fontSize: "1rem",
