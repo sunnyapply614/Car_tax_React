@@ -1,6 +1,15 @@
 import { SET_USER, LOG_OUT, USER_ERROR } from "../store/types";
 
-
+const initialState = {
+  user:
+    localStorage.getItem("user") !== "undefined"
+      ? JSON.parse(localStorage.getItem("user"))
+      : null,
+  isAuthenticated: !!localStorage.getItem("token"),
+  loading: false,
+  token: localStorage.getItem("token"),
+  error: null,
+};
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function (state = initialState, action) {
