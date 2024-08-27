@@ -17,14 +17,7 @@ const themeConstants = {
     lg: 1280,
     xl: 1920,
   },
-  typography: {
-    fontFamily: '"Poppins", sans-serif',
-    fontSize: 14,
-    fontWeightRegular: 400,
-    fontWeightLight: 300,
-    fontWeightMedium: 500,
-    fontWeightBold: 700,
-    htmlFontSize: 16,
+
 
     button: {
       fontFamily: "Poppins, sans-serif",
