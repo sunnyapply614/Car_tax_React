@@ -40,7 +40,6 @@ export default function (state = initialState, action) {
         loading: false,
         error: action.payload,
       };
-    default:
-      return state;
+
   }
 }
