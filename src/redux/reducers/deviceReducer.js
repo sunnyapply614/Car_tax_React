@@ -39,7 +39,12 @@ export default function (state = initialState, action) {
                 users: action.payload,
                 loading: false,
             };
-
+        case GET_USERNAMELIST:
+            return {
+                ...state,
+                userList: action.payload,
+                loading: false,
+            };
 
         default:
             return state;
