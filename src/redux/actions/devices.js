@@ -1,12 +1,6 @@
 import { getResponse, signInUser } from "../../services/axios";
 
-import {
-  GET_DEVICES,
-  DEVICES_ERROR,
-  GET_USERTOKEN,
-  GET_TOKENERROR,
-  LOG_OUT,
-} from "../store/types";
+
 
 export const getDevices = (props) => async (dispatch) => {
   try {
