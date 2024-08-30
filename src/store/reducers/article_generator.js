@@ -21,10 +21,7 @@ const initialState_article = {
         total: [[]],
         selected: [],
     },
-    intros: {
-        total: [],
-        selected: '',
-    },
+
     body_contents: {
         total: [[]],
         selected: [],
