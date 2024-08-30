@@ -1,13 +1,4 @@
-import axios from "axios";
 
-if (process.env.REACT_APP_DEV_MODE === "FALSE")
-  axios.defaults.baseURL = process.env.REACT_APP_URL;
-else axios.defaults.baseURL = process.env.REACT_APP_DEV_URL;
-console.log(
-  process.env.REACT_APP_DEV_MODE,
-  "process.env.REACT_APP_DEV_MODE",
-  process.env.REACT_APP_DEV_URL
-);
 const getUserNameList = async (props) => {
   try {
     var result = await axios.post("/auth/userIdList/", props, {
