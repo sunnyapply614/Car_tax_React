@@ -29,17 +29,5 @@ export const getDevices = (props) => async (dispatch) => {
     });
   }
 };
-export const getToken = (props) => async (dispatch) => {
-  try {
-    dispatch({
-      type: GET_USERTOKEN,
-      payload: await signInUser(props),
-    });
-  } catch (error) {
-    dispatch({
-      type: GET_TOKENERROR,
-      payload: error,
-    });
-  }
-};
+
 
