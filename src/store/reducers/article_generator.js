@@ -8,7 +8,11 @@ const initialState_article = {
     user_inputs: {
         description: ''
     },
-
+    frase_cluster_data: {
+        response_data: [],
+        total_keywords: [],
+        selected_keywords: [],
+    },
     titles: {
         total: [],
         selected: '',
