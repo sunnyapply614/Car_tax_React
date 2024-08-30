@@ -13,10 +13,7 @@ const initialState_article = {
         total_keywords: [],
         selected_keywords: [],
     },
-    titles: {
-        total: [],
-        selected: '',
-    },
+
     outlines: {
         total: [[]],
         selected: [],
