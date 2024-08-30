@@ -138,7 +138,18 @@ const getUser = async (props) => {
   }
 };
 
-
+const getGoogleAPIKey = async (props) => {
+  try {
+    var result = await axios.post("/api/users/getGoogleAPIKey", props, {
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+    return result.data;
+  } catch (error) {
+    return error.response;
+  }
+};
 
 const removeDevice = async (props) => {
   try {
