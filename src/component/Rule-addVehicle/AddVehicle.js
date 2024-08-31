@@ -9,8 +9,7 @@ import { Teltonikas, Ruptelas } from "../../utils/mockup";
 import "./AddVehicle.css";
 
 const AddVehicle = () => {
-  const navigate = useNavigate();
-  const isMobile = useMediaQuery("(max-width: 768px)");
+
 
   const AddVehicle = [
     {
