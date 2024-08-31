@@ -6,7 +6,11 @@ import PhoneInput from 'react-phone-number-input';
 import { CountryData } from "../../utils/mockup";
 import { getResponse } from '../../services/axios';
 
-
+import 'react-phone-number-input/style.css';
+import "./AddUser.css";
+import axios from 'axios';
+import { notification } from "antd";
+import jsonData from './companies.json';
 
 const companies = jsonData.companies
 
