@@ -10,7 +10,7 @@ import "./AddVehicle.css";
 
 const AddVehicle = () => {
   
-  const navigate = useNavigate();
+
   const isMobile = useMediaQuery("(max-width: 768px)");
     {
       id: "1",
