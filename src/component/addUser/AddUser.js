@@ -12,7 +12,7 @@ import axios from 'axios';
 import { notification } from "antd";
 import jsonData from './companies.json';
 
-
+const companies = jsonData.companies
 
 const AddUser = () => {
     const navigate = useNavigate();
