@@ -8,7 +8,11 @@ const EditRule = () => {
 
   return (
     <div className="edit-rule-main w-100">
-
+      <div className="sub1-div1">
+        <p className="px-5 text-white d-flex justify-content-center align-items-center">
+          Edit Rule: <span className="ml-5">Engine ON</span>
+        </p>
+      </div>
       <div className="sub1-edit-rule-div2 d-flex justify-content-between my-5 bg-white mx-auto px-4 py-5">
         <div className="subsub1-sub1-edit-rule-div2 d-flex flex-column justify-content-between col-md-4">
           <input className="text-center" placeholder="Rule Name" />
