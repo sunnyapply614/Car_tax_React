@@ -19,19 +19,7 @@ const AddUser = () => {
 
     const role = useSelector((state) => state.auth.user.role);
 
-    const [phoneNumber, setPhoneNumber] = useState("");
-    const [suggestions, setSuggestions] = useState([]);
-    const [avatarPath, setAvatarPath] = useState('');
-    const [formData, setFormData] = useState({
-        name: "",
-        username: "",
-        email: "",
-        mobile: "",
-        country: "",
-        address: "",
-        usertype: "",
-        company: ""
-    })
+
 
     useEffect(() => {
         var temp = [];
