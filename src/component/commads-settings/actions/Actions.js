@@ -8,7 +8,12 @@ import { ConfirmDialog } from "../../../utils/globals";
 
 const Actions = () => {
   
-
+  const deviceListData = useSelector((state) => state.devicesList);
+  const { token, devices } = deviceListData;
+  const getData = useLocation();
+  const data = {
+    deviceImei: getData?.state?.deviceImei,
+  }
   
   const [left1, setLeft1] = useState("none");
   const [left1State, setLeft1State] = useState(false);
