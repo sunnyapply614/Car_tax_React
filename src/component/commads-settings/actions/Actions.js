@@ -65,7 +65,13 @@ const Actions = () => {
     return res;
   }
 
-
+    const sendCommandData =
+    {
+      token: token,
+      type: type,
+      params: params,
+      devImei: data?.deviceImei
+    }
   const sendRequestGps = async () => {
     return sendCommonRequest(cmdType.ReqGPSDataTime, {
     })
