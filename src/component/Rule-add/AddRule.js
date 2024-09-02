@@ -80,7 +80,12 @@ const AddRule = () => {
             <option></option>
           </select>
         </div>
-
+        {isMobile && (
+          <div className="tab-button d-flex justify-content-evenly align-items-center mx-auto">
+            <img src="./assets/Save.svg" alt="none"/>
+            <button>Save</button>
+          </div>
+        )}
       </div>
       {!isMobile && (
         <div className="tab-button d-flex justify-content-evenly align-items-center mx-auto">
