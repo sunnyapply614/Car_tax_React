@@ -150,15 +150,7 @@ const Bluetooth = () => {
   const [port, setPort] = useState("")
 
   // /////////////////////////////////////////////
-  const handlLeft1 = (state) => {
-    if (state == false) {
-      setLeft1("block");
-      setLeft1State(true);
-    } else {
-      setLeft1("none");
-      setLeft1State(false);
-    }
-  };
+
   const handlLeft2 = (state) => {
     if (state == false) {
       setLeft2("block");
