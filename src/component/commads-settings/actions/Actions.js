@@ -58,13 +58,7 @@ const Actions = () => {
     if (!ConfirmDialog('Do you really want to send setting to selected devices?')) {
       return;
     };
-    const sendCommandData =
-    {
-      token: token,
-      type: type,
-      params: params,
-      devImei: data?.deviceImei
-    }
+
     var res = await commandSetting(sendCommandData);
     console.log("🚀 ~ file: Accelerometer.js:299 ~ sendCommonRequest ~ sendCommandData:", sendCommandData)
     console.log("🚀 ~ file: InputOutput.js:452 ~ sendDigitalInput ~ res:", res)
