@@ -15,12 +15,7 @@ const Actions = () => {
     deviceImei: getData?.state?.deviceImei,
   }
   
-  const [left1, setLeft1] = useState("none");
-  const [left1State, setLeft1State] = useState(false);
-  const [left2, setLeft2] = useState("none");
-  const [left2State, setLeft2State] = useState(false);
-  const [left3, setLeft3] = useState("none");
-  const [left3State, setLeft3State] = useState(false);
+
   // //////////////////////////////////
   const [mid1, setMid1] = useState("none");
   const [mid1State, setMid1State] = useState(false);
