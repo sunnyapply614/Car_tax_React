@@ -44,7 +44,14 @@ const Actions = () => {
   const [priority7, setPriority7] = useState("");
   const [priority8, setPriority8] = useState("");
 
-
+  const [operand1, setOperand1] = useState("");
+  const [operand2, setOperand2] = useState("");
+  const [operand3, setOperand3] = useState("");
+  const [operand4, setOperand4] = useState("");
+  const [operand5, setOperand5] = useState("");
+  const [operand6, setOperand6] = useState("");
+  const [operand7, setOperand7] = useState("");
+  const [operand8, setOperand8] = useState("");
 
   const [analogueInput, setAnalogueInput] = useState("");
 
