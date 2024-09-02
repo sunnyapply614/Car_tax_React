@@ -14,7 +14,6 @@ const Actions = () => {
   const data = {
     deviceImei: getData?.state?.deviceImei,
   }
-  
 
   // //////////////////////////////////
   const [mid1, setMid1] = useState("none");
