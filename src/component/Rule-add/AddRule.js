@@ -17,11 +17,7 @@ const AddRule = () => {
         <div className="subsub1-sub1-add-rule-div2 d-flex flex-column justify-content-between col-md-4">
           <input className="text-center" placeholder="Rule Name" />
           <select className="text-center">
-            <option disabled selected>
-              I/O Pin
-            </option>
-            <option></option>
-            <option></option>
+
           </select>
           <div className="sub1-subsub1-sub1-add-rule-div2 p-4 d-flex flex-column justify-content-center">
             <p>Alert Notifications:</p>
