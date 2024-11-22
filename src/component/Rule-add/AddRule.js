@@ -5,7 +5,7 @@ import "./AddRule.css";
 
 const AddRule = () => {
 
-
+  const isMobile = useMediaQuery("(max-width: 768px)");
   return (
     <div className="add-rule-main w-100">
       <div className="sub1-div1">
