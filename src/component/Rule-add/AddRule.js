@@ -24,10 +24,7 @@ const AddRule = () => {
                 <input type="checkbox" />
                 <p className="ml-5 mb-0">Notification</p>
               </div>
-              <div className="d-flex align-items-center my-2 pl-4">
-                <input type="checkbox" />
-                <p className="ml-5 mb-0">Email</p>
-              </div>
+
               <div className="d-flex align-items-center my-2 pl-4">
                 <input type="checkbox" />
                 <p className="ml-5 mb-0">SMS</p>
