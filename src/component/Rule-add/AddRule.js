@@ -26,7 +26,10 @@ const AddRule = () => {
           <div className="sub1-subsub1-sub1-add-rule-div2 p-4 d-flex flex-column justify-content-center">
             <p>Alert Notifications:</p>
             <div className="subsub1-sub1-subsub1-sub1-add-rule-div2 d-flex flex-column">
-
+              <div className="d-flex align-items-center my-2 pl-4">
+                <input type="checkbox" />
+                <p className="ml-5 mb-0">Notification</p>
+              </div>
               <div className="d-flex align-items-center my-2 pl-4">
                 <input type="checkbox" />
                 <p className="ml-5 mb-0">Email</p>
