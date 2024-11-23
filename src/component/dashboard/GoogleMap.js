@@ -11,7 +11,11 @@ const CustomMarker = ({label}) => (
 )
 
 const GoogleMapComponent = ({devices, point}) => {
-
+  const mapRef = useRef(null);
+  const { isLoaded } = useJsApiLoader({
+    id: 'google-map-script',
+    googleMapsApiKey: process.env.REACT_APP_APIKEY
+  })
 
   const [center, setCenter] = useState({
     lat: 41.3851,
