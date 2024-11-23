@@ -10,14 +10,7 @@ import "./AddVehicle.css";
 
 const AddVehicle = () => {
   
-  const [exportType, setExportType] = useState(false);
-  const [exportType1, setExportType1] = useState("none");
-  const [searchPlateText, setSearchPlateText] = useState("Plate");
-  const [searchImeiText, setSearchImeiText] = useState("");
-  const [searchDeviceText, setSearchDeviceText] = useState("Device");
-  const [searchModelText, setSearchModelText] = useState("Model");
-  const [searchCompanyText, setSearchCompanyText] = useState("Company");
-  const [data, setData] = useState(AddVehicle);
+
 
   const isMobile = useMediaQuery("(max-width: 768px)");
     {
