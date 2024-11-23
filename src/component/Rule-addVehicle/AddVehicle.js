@@ -20,14 +20,7 @@ const AddVehicle = () => {
   const [data, setData] = useState(AddVehicle);
 
   const isMobile = useMediaQuery("(max-width: 768px)");
-    {
-      id: "1",
-      plate: "DXB U12341",
-      device: "Teltonika",
-      model: "FMC001",
-      iemi: "49837593896789",
-      company: "Delta",
-    },
+
   const AddVehicle = [
 
     {
