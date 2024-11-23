@@ -22,7 +22,10 @@ const GoogleMapComponent = ({devices, point}) => {
     lng: 2.1734
   })
 
-
+  const mapStyles = {
+    width: '100%',
+    height: '100%',
+  };
 
   const onLoad = React.useCallback(function callback(map) {
     mapRef.current = map;
