@@ -1,14 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { GoogleMap, useJsApiLoader, LoadScriptNext, OverlayView } from '@react-google-maps/api';
 
-const CustomMarker = ({label}) => (
-  <div className="position-relative d-flex flex-column align-items-center">
-    <img className="ml-3" src="./assets/map_car.png" alt="marker" />
-    <div className="d-flex flex-column align-items-center marker-info px-2">
-      <p className="mb-0">{label}</p>
-    </div>
-  </div>
-)
+
 
 const GoogleMapComponent = ({devices, point}) => {
   const mapRef = useRef(null);
