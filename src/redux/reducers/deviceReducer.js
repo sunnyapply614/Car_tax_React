@@ -21,7 +21,12 @@ export default function (state = initialState, action) {
                 loading: false,
                 error: action.payload,
             };
-
+        case GET_USERTOKEN:
+            return {
+                ...state,
+                token: action.payload,
+                loading: false,
+            };
         case GET_TOKENERROR:
             return {
                 ...state,
