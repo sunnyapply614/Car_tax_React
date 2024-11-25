@@ -10,12 +10,7 @@ import {
 
 export const getDevices = (props) => async (dispatch) => {
   try {
-    var response = await getResponse("/api/vehicles/show", "post", props);
-    if (response.status === 401) {
-      dispatch({
-        type: LOG_OUT,
-      });
-    }
+
     if (response.status === 200) {
       dispatch({
         type: GET_DEVICES,
