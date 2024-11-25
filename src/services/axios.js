@@ -1,4 +1,4 @@
-import axios from "axios";
+
 
 if (process.env.REACT_APP_DEV_MODE === "FALSE")
   axios.defaults.baseURL = process.env.REACT_APP_URL;
