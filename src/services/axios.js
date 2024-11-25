@@ -65,7 +65,19 @@ const verifyEmail = async (props) => {
   }
 };
 
-
+const resendVerifyEmail = async ({ email }) => {
+  try {
+    var result = await axios.post(`/auth/resendEmail`, {
+      email,
+    });
+    if (result) {
+      return true;
+    }
+    return false;
+  } catch (error) {
+    return false;
+  }
+};
 
 const userRegister = async (props) => {
   try {
