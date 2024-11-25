@@ -22,7 +22,12 @@ const getUserNameList = async (props) => {
 };
 
 const signInUser = async (props) => {
-
+  try {
+    var result = await axios.post("/auth/login/", props, {
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
     return result;
   } catch (error) {
     return error.response;
