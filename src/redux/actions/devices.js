@@ -16,12 +16,7 @@ export const getDevices = (props) => async (dispatch) => {
         type: LOG_OUT,
       });
     }
-    if (response.status === 200) {
-      dispatch({
-        type: GET_DEVICES,
-        payload: response.data,
-      });
-    }
+
   } catch (error) {
     dispatch({
       type: DEVICES_ERROR,
