@@ -14,14 +14,7 @@ const initialState = {
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function (state = initialState, action) {
   switch (action.type) {
-    case SET_USER:
-      return {
-        user: action.payload.user,
-        isAuthenticated: true,
-        loading: false,
-        token: action.payload.token,
-        error: null,
-      };
+
 
     case LOG_OUT:
       localStorage.removeItem("token");
