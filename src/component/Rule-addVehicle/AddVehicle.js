@@ -1,8 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import { useMediaQuery } from "@mui/material";
-import checkbox from "rc-checkbox";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 import { Teltonikas, Ruptelas } from "../../utils/mockup";
 
