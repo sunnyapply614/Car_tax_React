@@ -48,7 +48,6 @@ const AddVehicle = () => {
       iemi: "49837593896789",
       company: "Delta",
     },
-
   ];
 
   useEffect(() => {
