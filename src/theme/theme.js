@@ -1,9 +1,4 @@
-// Lighter Paper: #ffffff
-// Light Paper: #e5e5e5
-// Accent 1: #2196f3
-// Dark Paper: #171c34
-// Dark Modals: #151b24
-// Darkest Paper: #151318
+
 
 import { createTheme } from '@mui/material/styles';
 
