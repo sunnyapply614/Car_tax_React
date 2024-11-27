@@ -91,10 +91,7 @@ const AddVehicle = () => {
     }
   };
 
-  const handlePlate = (value) => {
-    const val = value.target.value;
-    setSearchPlateText(val);
-  };
+
 
   const handleCompany = (value) => {
     const val = value.target.value;
