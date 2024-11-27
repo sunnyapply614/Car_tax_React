@@ -58,8 +58,6 @@ const AddVehicle = () => {
     },
   ];
 
-
-
   useEffect(() => {
     setData(
       AddVehicle.filter((item) => {
