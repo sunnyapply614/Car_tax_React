@@ -1,11 +1,4 @@
-import { configureStore } from '@reduxjs/toolkit';
-import {
-    persistStore, persistReducer,
-    FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER
-} from 'reduxjs-toolkit-persist';
-import storage from 'reduxjs-toolkit-persist/lib/storage'; // defaults to localStorage for web
-import { useSelector, useDispatch } from 'react-redux';
-import rootReducer from './reducers';
+
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
