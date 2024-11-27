@@ -74,12 +74,7 @@ const AddVehicle = () => {
       })
     );
   }, [
-    searchPlateText,
-    searchImeiText,
-    searchDeviceText,
-    searchModelText,
-    searchCompanyText,
-  ]);
+
 
   const handlExportType = () => {
     if (exportType) {
