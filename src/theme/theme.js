@@ -9,7 +9,14 @@ import { createTheme } from '@mui/material/styles';
 
 // THIS OBJECT SHOULD BE SIMILAR TO ../tailwind.config.js
 const themeConstants = {
-
+  breakpoints: {
+    xs: 0,
+    mb: 350,
+    sm: 600,
+    md: 960,
+    lg: 1280,
+    xl: 1920,
+  },
   typography: {
     fontFamily: '"Poppins", sans-serif',
     fontSize: 14,
