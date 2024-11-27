@@ -48,14 +48,7 @@ const AddVehicle = () => {
       iemi: "49837593896789",
       company: "Delta",
     },
-    {
-      id: "1",
-      plate: "DXB U12344",
-      device: "Teltonika",
-      model: "FMC001",
-      iemi: "49837593896780",
-      company: "Delta",
-    },
+
   ];
 
   useEffect(() => {
