@@ -1,6 +1,11 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-
+const initialState = {
+  uploaded_files: [],
+  is_newly_uploaded: false,
+  all_namespace: [],
+  selected_namespace: "",
+};
 
 export const AdversarialDialogSlice = createSlice({
   name: "adversarial-dialog",
